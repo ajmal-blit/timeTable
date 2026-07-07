@@ -41,29 +41,29 @@ document.addEventListener("DOMContentLoaded", () => {
             { start: "09:30", end: "10:30", name: "Language", teacher: "Yoonus Sir" },
             { start: "10:30", end: "11:20", name: "DSA", teacher: "Suhani Miss" },
             { start: "11:20", end: "11:35", name: "Interval", teacher: "No Teacher" },
-            { start: "11:35", end: "12:30", name: "RVC", teacher: "Ramshi Miss" },
+            { start: "11:35", end: "12:30", name: "RVC", teacher: "Ramsi Miss" },
             { start: "12:30", end: "13:20", name: "Lunch Break", teacher: "No Teacher" },
             { start: "13:20", end: "14:10", name: "SWM", teacher: "Seetha Miss" },
-            { start: "14:10", end: "15:10", name: "RVC", teacher: "Ramshi Miss" }
+            { start: "14:10", end: "15:10", name: "RVC", teacher: "Ramsi Miss" }
         ],
 
         3: [
-            { start: "09:30", end: "10:30", name: "RVC", teacher: "Ramshi Miss" },
+            { start: "09:30", end: "10:30", name: "RVC", teacher: "Ramsi Miss" },
             { start: "10:30", end: "11:20", name: "English", teacher: "Sahla Miss" },
             { start: "11:20", end: "11:35", name: "Interval", teacher: "No Teacher" },
             { start: "11:35", end: "12:30", name: "BASE", teacher: "Ramya Miss" },
             { start: "12:30", end: "13:20", name: "Lunch Break", teacher: "No Teacher" },
             { start: "13:20", end: "14:10", name: "SWM", teacher: "Seetha Miss" },
-            { start: "14:10", end: "15:10", name: "RVC", teacher: "Ramshi Miss" }
+            { start: "14:10", end: "15:10", name: "RVC", teacher: "Ramsi Miss" }
         ],
 
         4: [
             { start: "09:30", end: "10:30", name: "DSA", teacher: "Suhani Miss" },
             { start: "10:30", end: "11:20", name: "English", teacher: "Sahla Miss" },
             { start: "11:20", end: "11:35", name: "Interval", teacher: "No Teacher" },
-            { start: "11:35", end: "12:30", name: "RVC", teacher: "Ramshi Miss" },
+            { start: "11:35", end: "12:30", name: "RVC", teacher: "Ramsi Miss" },
             { start: "12:30", end: "13:20", name: "Lunch Break", teacher: "No Teacher" },
-            { start: "13:20", end: "14:10", name: "MDC", teacher: "" },
+            { start: "13:20", end: "14:10", name: "Language", teacher: "Yoonus Sir" },
             { start: "14:10", end: "15:10", name: "BASE", teacher: "Ramya Miss" }
         ],
 
