@@ -29,52 +29,52 @@ document.addEventListener("DOMContentLoaded", () => {
     const timetable = {
         1: [
             { start: "09:30", end: "10:30", name: "English", teacher: "Miss Sahla Mk" },
-            { start: "10:30", end: "11:20", name: "Language", teacher: "" },
-            { start: "11:20", end: "11:35", name: "Interval", teacher: "" },
+            { start: "10:30", end: "11:20", name: "Language", teacher: "Yoonus Sir" },
+            { start: "11:20", end: "11:35", name: "Interval", teacher: "No Teacher" },
             { start: "11:35", end: "12:30", name: "DSA", teacher: "Miss Suhani Vs" },
-            { start: "12:30", end: "13:20", name: "Lunch Break", teacher: "" },
+            { start: "12:30", end: "13:20", name: "Lunch Break", teacher: "No Teacher" },
             { start: "13:20", end: "14:10", name: "BASE", teacher: "Miss Ramya" },
             { start: "14:10", end: "15:10", name: "SWM", teacher: "Miss Suhani Vs" }
         ],
 
         2: [
-            { start: "09:30", end: "10:30", name: "MDC", teacher: "" },
-            { start: "10:30", end: "11:20", name: "DSA", teacher: "" },
-            { start: "11:20", end: "11:35", name: "Interval", teacher: "" },
-            { start: "11:35", end: "12:30", name: "RVC", teacher: "Miss Ramshi" },
-            { start: "12:30", end: "13:20", name: "Lunch Break", teacher: "" },
-            { start: "13:20", end: "14:10", name: "SWM", teacher: "" },
-            { start: "14:10", end: "15:10", name: "RVC", teacher: "" }
+            { start: "09:30", end: "10:30", name: "Language", teacher: "Yoonus Sir" },
+            { start: "10:30", end: "11:20", name: "DSA", teacher: "Suhani Miss" },
+            { start: "11:20", end: "11:35", name: "Interval", teacher: "No Teacher" },
+            { start: "11:35", end: "12:30", name: "RVC", teacher: "Ramshi Miss" },
+            { start: "12:30", end: "13:20", name: "Lunch Break", teacher: "No Teacher" },
+            { start: "13:20", end: "14:10", name: "SWM", teacher: "Seetha Miss" },
+            { start: "14:10", end: "15:10", name: "RVC", teacher: "Ramshi Miss" }
         ],
 
         3: [
-            { start: "09:30", end: "10:30", name: "RVC", teacher: "" },
-            { start: "10:30", end: "11:20", name: "English", teacher: "" },
-            { start: "11:20", end: "11:35", name: "Interval", teacher: "" },
-            { start: "11:35", end: "12:30", name: "BASE", teacher: "" },
-            { start: "12:30", end: "13:20", name: "Lunch Break", teacher: "" },
-            { start: "13:20", end: "14:10", name: "SWM", teacher: "" },
-            { start: "14:10", end: "15:10", name: "RVC", teacher: "" }
+            { start: "09:30", end: "10:30", name: "RVC", teacher: "Ramshi Miss" },
+            { start: "10:30", end: "11:20", name: "English", teacher: "Sahla Miss" },
+            { start: "11:20", end: "11:35", name: "Interval", teacher: "No Teacher" },
+            { start: "11:35", end: "12:30", name: "BASE", teacher: "Ramya Miss" },
+            { start: "12:30", end: "13:20", name: "Lunch Break", teacher: "No Teacher" },
+            { start: "13:20", end: "14:10", name: "SWM", teacher: "Seetha Miss" },
+            { start: "14:10", end: "15:10", name: "RVC", teacher: "Ramshi Miss" }
         ],
 
         4: [
-            { start: "09:30", end: "10:30", name: "DSA", teacher: "" },
-            { start: "10:30", end: "11:20", name: "English", teacher: "" },
-            { start: "11:20", end: "11:35", name: "Interval", teacher: "" },
-            { start: "11:35", end: "12:30", name: "RVC", teacher: "" },
-            { start: "12:30", end: "13:20", name: "Lunch Break", teacher: "" },
+            { start: "09:30", end: "10:30", name: "DSA", teacher: "Suhani Miss" },
+            { start: "10:30", end: "11:20", name: "English", teacher: "Sahla Miss" },
+            { start: "11:20", end: "11:35", name: "Interval", teacher: "No Teacher" },
+            { start: "11:35", end: "12:30", name: "RVC", teacher: "Ramshi Miss" },
+            { start: "12:30", end: "13:20", name: "Lunch Break", teacher: "No Teacher" },
             { start: "13:20", end: "14:10", name: "MDC", teacher: "" },
-            { start: "14:10", end: "15:10", name: "BASE", teacher: "" }
+            { start: "14:10", end: "15:10", name: "BASE", teacher: "Ramya Miss" }
         ],
 
         5: [
-            { start: "09:30", end: "10:30", name: "BASE", teacher: "" },
-            { start: "10:30", end: "11:20", name: "SWM", teacher: "" },
-            { start: "11:20", end: "11:35", name: "Interval", teacher: "" },
-            { start: "11:35", end: "12:30", name: "SWM", teacher: "" },
-            { start: "12:30", end: "13:40", name: "Lunch Break", teacher: "" },
-            { start: "13:40", end: "14:10", name: "DSA Lab", teacher: "" },
-            { start: "14:10", end: "15:10", name: "DSA Lab", teacher: "" }
+            { start: "09:30", end: "10:30", name: "BASE", teacher: "Ramya Miss" },
+            { start: "10:30", end: "11:20", name: "SWM", teacher: "Seetha Miss" },
+            { start: "11:20", end: "11:35", name: "Interval", teacher: "No Teacher" },
+            { start: "11:35", end: "12:30", name: "SWM", teacher: "Seetha Miss" },
+            { start: "12:30", end: "13:40", name: "Lunch Break", teacher: "No Teacher" },
+            { start: "13:40", end: "14:10", name: "DSA Lab", teacher: "Suhani Miss" },
+            { start: "14:10", end: "15:10", name: "DSA Lab", teacher: "Suhani Miss" }
         ]
     };
 
